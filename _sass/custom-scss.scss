@@ -2964,6 +2964,25 @@ blockquote {
 	margin: 0 auto;
 	
 }
+
+@media (max-width: 440px) { 
+
+.sixty-day {
+	display: block !important;
+    float: left;
+    text-align: center;
+    width: 100% !important;
+}
+	
+.thirty-day {
+	display: block !important;
+    float: left;
+    text-align: center;
+    width: 100% !important;
+}
+
+
+}
 	
 .sixty-day {
 	display: inline-block;
