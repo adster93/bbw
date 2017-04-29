@@ -1,0 +1,57 @@
+---
+hide_sidebar: true
+---
+<!DOCTYPE html>
+{% assign lang = site.data.translations[page.lang] %}
+
+{% if page.lang == 'es' %}
+<html lang="es">
+{% elsif page.lang == 'he' %}
+<html lang="he">
+{% elsif page.lang == 'pt' %}
+<html lang="pt">
+{% elsif page.lang == 'it' %}
+<html lang="it">
+{% elsif page.lang == 'ar' %}
+<html lang="ar">
+{% elsif page.lang == 'sv' %}
+<html lang="sv">
+{% elsif page.lang == 'de' %}
+<html lang="de">
+{% elsif page.lang == 'fr' %}
+<html lang="fr">
+{% elsif page.lang == 'uk' %}
+<html lang="uk">
+{% elsif page.lang == 'ru' %}
+<html lang="ru">
+{% elsif page.lang == 'nl' %}
+<html lang="nl">
+{% elsif page.lang == 'el' %}
+<html lang="el">
+{% elsif page.lang == 'th' %}
+<html lang="th">
+{% elsif page.lang == 'zh' %}
+<html lang="zh">
+{% elsif page.lang == 'bg' %}
+<html lang="bg">
+{% elsif page.lang == 'en' %}
+<html lang="en">
+{% else %}
+<html lang="en">
+{% endif %}
+
+  {% include head.html %} 
+  
+  {% if page.lang == 'ar' or page.lang == 'he' %}
+  <body class="arabic">
+  {% elsif page.color %}
+  <body class="colorguide-body">
+  {% else %}
+  <body>
+  {% endif %}
+  
+  {% include navbarmain.html %}
+  {% include content.html %}
+  {% include scripts.html %}
+  </body>
+</html>
