@@ -61,12 +61,12 @@ var vData30 = [];
 var vData60 = [];
 
 jQuery(document).ready(function($){
-    $.getJSON( "http://satochi.co/latest", function( data ) {
+    $.getJSON( "https://btcvol.info/latest", function( data ) {
 		 console.log(data);
 		 $("div.thirty-day span.stat").html(data.Volatility.toFixed(2)+"%");
 		 $("div.sixty-day span.stat").html(data.Volatility60.toFixed(2)+"%");
 	});
-	$.getJSON( "http://satochi.co/all", function( data ) {
+	$.getJSON( "https://btcvol.info/all", function( data ) {
 		 data.map(function(d){
 		 	//console.log(d);
 		 	vData30.push(+d.Volatility);
