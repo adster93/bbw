@@ -44,7 +44,7 @@
    pros:  <li>High liquidity and buying limits</li> <li>Easy way for newcomers to get bitcoins</li> <li>"Instant Buy" option available with <a href="/en/buy-bitcoin-credit-debit-card/">credit card or debit card</a></li>
    cons: <li><a href="/buy-bitcoin-bank-transfer-account/">Purchases made with bank transfer</a> can take up to 5 days to complete</li> <li>Coinbase may track how and where you spend your bitcoins</li>
    sg: Residents of Singapore can purchase bitcoins on Coinbase using three payment options - <a href="/en/buy-bitcoin-credit-debit-card/">credit card</a>, debit card, or bank transfer. <br><br> Once your Coinbase account is verified, you will be given the account information that will be used to make a bank transfer deposit. This is done through Xfers Transfers. Coinbase claims that deposits clear within a few minutes, and that there are no deposit fees. Once you deposit Coinbase charges 1.49% to purchase coins. <br> <br> If you are buying with a <a href="/en/buy-bitcoin-credit-debit-card/#coinbase-guide">credit card or debit card</a>, there is also a required identity verification. Fees for buying with a credit card or debit card are 3.99%. <br><br> If you purchase more than $100 USD (~136.24 SGD) worth of bitcoins through <a target="_blank" href="http://buybitcoinww.co/Coinbase_Buy">this link</a> then you get $10 USD (13.62 SGD) worth of bitcoins for free!
-   ca: Residents of Canada can use Coinbase to <a href="/en/buy-bitcoin-credit-debit-card/">purchase bitcoins with a credit card or debit card</a>. The fees are 3.99% per purchase, and your bitcoins are delivered instantly. <br><br> If you purchase more than $100 USD (~130 CAD) worth of bitcoins through <a target="_blank" href="http://buybitcoinww.co/Coinbase_Buy">this link</a> then you get $10 USD (~13 CAD) worth of bitcoins for free!
+   ca: Residents of Canada can use Coinbase to <a href="/en/buy-bitcoin-credit-debit-card/">purchase bitcoins with a credit card</a>. The fees are 3.99% per purchase, and your bitcoins are delivered instantly. <br><br> If you purchase more than $100 USD (~130 CAD) worth of bitcoins through <a target="_blank" href="http://buybitcoinww.co/Coinbase_Buy">this link</a> then you get $10 USD (~13 CAD) worth of bitcoins for free!
    us: Coinbase is probably the fastest and easiest way to buy bitcoins in the USA. <br><br> If you need bitcoins fast, then <a href="/en/buy-bitcoin-credit-debit-card/#coinbase-guide">buying with a credit card or debit card</a> is a good option. Coinbase charges 3.99% fees for credit/debit card purchases but you can get your coins instantly. <br><br> Another payment option for US customers is using a connected bank account. The fees are less for this method--1.49%--but your coins are only delivered after five days. <br><br> Get $10 of free bitcoin when you buy more than $100 worth through <a target="_blank" rel="nofollow" href="http://buybitcoinww.co/Coinbase_Buy">this link</a>.
    au: Residents of Australia can use Coinbase to <a href="/en/buy-bitcoin-credit-debit-card/">purchase bitcoins with a credit card or debit card</a>. The fees are 3.99% per purchase, and your bitcoins are delivered instantly. <br><br> If you purchase more than $100 USD (~130 AUD) worth of bitcoins through <a target="_blank" href="http://buybitcoinww.co/Coinbase_Buy">this link</a> then you get $10 USD (~13 AUD) worth of bitcoins for free!
    pros_ru: "<li>Высокая ликвидность и лимиты на покупку</li><li>Простой способ купить биткойны для новичков</li><li>Возможность “мгновенно купить” биткойны посредством кредитной или дебетовой карты</li>" 
@@ -1051,11 +1051,11 @@
 ##### Canada ####################################################
 
  - name: Canadian Bitcoins
-   desc: <p>Canadian Bitcoins is a Bitcoin exchanged based in Canada. The company offers many payment options:</p> <ul> <li>Interac Online</li><li>Bill Payment via online banking</li><li>Direct debit from bank account</li><li>Flexepin Voucher</li><li>Cash via mail</li><li>Cash in person (Ottawa)</li><li>Debit in person (Ottawa)</li></ul> <p>The fees vary for each payment method.</p>
+   desc: <p>Canadian Bitcoins is a Bitcoin exchange based in Canada. The company offers many payment options:</p> <ul> <li>Interac Online</li><li>Bill Payment via online banking</li><li>Direct debit from bank account</li><li>Flexepin Voucher</li><li>Cash via mail</li><li>Cash in person (Ottawa)</li><li>Debit in person (Ottawa)</li></ul> <p>The fees vary for each payment method.</p>
    url: https://www.canadianbitcoins.com/
    icon: /img/buy/canadianbitcoins.png
    countries: ca
-   po: io, cash, bt, flexepin,
+   po: io, cash, bt, flexepin
    name_es: Canadian Bitcoins
    desc_es: Comprar Bitcoin con efectivo en la oficnia, banca online e Interac Online.
    desc_ar:  شراء بيتكوين Interac نقدًا من خلال المكتب، ونقدًا بالبريد السريع، والخدمات المصرفية عبر الإنترنت، و Interac أون لاين.
@@ -1179,6 +1179,39 @@
 ##   tags: [quickinfo, lowprivacy, fast, lowfees, trusted, eouavg, highlimits]
 ##   pros: <li></li>
 ##   cons: <li></li>
+
+ - name: BitAccess
+   desc: BitAccess is a Canadian Bitcoin broker and ATM operator. You can buy bitcoins with Flexepin at thousands of locations across Canada. You can also buy bitcoins with cash at one of BitAccess's Bitcoin ATMs. BitAccess is funded by the Government of Canada. 
+   url: https://bitaccess.co/
+   icon: /img/buy/bitaccess.jpg
+   countries: ca
+   po: flexepin, cash
+   desc_es: 
+   desc_ar:  
+   desc_fr: 
+   desc_ru: 
+   desc_uk:    
+   tags: [quickinfo, avgprivacy, fast, highfees, trusted, eoueasy, avglimits]
+   pros: <li>ID not required for smaller transactions</li> <li></li>
+   cons: <li>Fees start out at 10%</li><li>ID verification required for larger purchases</li>
+   pros_ru: "" 
+   cons_ru: "" 
+   pros_es: ""
+   cons_es: "" 
+   pros_pt: "" 
+   cons_pt: ""
+   pros_de: ""
+   cons_de: "" 
+   pros_nl: ""
+   cons_nl: "" 
+   pros_fr:
+   cons_fr: 
+   pros_zh_CN:
+   cons_zh_CN:
+   pros_it:
+   cons_it: 
+   pros_ar: 
+   cons_ar: 
 
  - name: bitBUY.ca
    desc: bitBuy is a Bitcoin exchange based in Canada. You can buy bitcoin online in Canada with Interac Online.
@@ -3643,7 +3676,7 @@
    internal_url: /exchanges/#kraken
    icon: /img/buy/kraken.png
    countries: us, ad, at, be, bg, hr, cy, cz, dk, ee, fi, fr, de, gr, hu, is, ie, it, lv, li, lt, lu, mt, mc, nl, nor, pl, pt, ro, sm, sk, si, es, se, ch, gb, jp, ca
-   po: sepa, io, lowfees, babt, sell
+   po: sepa, lowfees, babt, sell
    tags: [quickinfo, rec, lowprivacy, avgspeed, lowfees, trusted, eouhard, highlimits, int]
    name_es: Kraken
    desc_es: El intercambio de Bitcoin soporta depósitos SEPA, transferencias bancarias, y SWIFT.
@@ -4185,7 +4218,7 @@
    desc: Anycoin Direct is a Bitcoin broker based in the Netherlands which services clients across Europe. Customers can purchase bitcoin with SEPA, SOFORT, Giropay, iDEAL, Mybank, Bancontact, and TrustPay.
    url: https://anycoindirect.eu/
    icon: /img/buy/anycoin.png
-   countries: ad, at, be, bg, hr, cy, cz, dk, ee, fi, fr, de, gr, hu, is, ie, it, lv, li, lt, lu, mt, mc, nl, nor, pl, pt, ro, sm, sk, si, es, se, ch, gb, ca
+   countries: ad, at, be, bg, hr, cy, cz, dk, ee, fi, fr, de, gr, hu, is, ie, it, lv, li, lt, lu, mt, mc, nl, nor, pl, pt, ro, sm, sk, si, es, se, ch, gb
    po: sepa, io, sofort, trustpay, giro, ideal
    desc_ar:  وسيط بيتكوين . شراء بيتكوين بـSEPA وInterac Online والعديد من وسائل الدفع الأخرى.
    desc_fr: "Achetez avec virements SEPA, Interac En Ligne et beaucoup d'autres options de paiement."

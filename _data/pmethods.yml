@@ -45,6 +45,9 @@
    
  - pmethod: Skrill
    short: skrill
+   
+ - pmethod: Flexepin
+   short: flexepin
 
  - pmethod: Interac Online
    short: io
