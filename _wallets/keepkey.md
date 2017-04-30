@@ -116,7 +116,9 @@ As with any hardware wallet, using your device is only as private as the softwar
 
 ## KeepKey vs. TREZOR
 
-KeepKey is actually a port of the TREZOR's code and firmware. The main difference between KK and [TREZOR](/wallets/trezor/) is that KK offers a digital screen and the ability to recover the seed even on an unsafe or malware infected computer. 
+KeepKey is actually a port of the TREZOR's code and firmware.
+
+There is no huge difference besides that TREZOR has been around much longer. The design of the two devices also differ. KeepKey has a more premium feel, is aluminum, and heavier. TREZOR is plastic and lighter. TREZOR is very light and may be more drop-proof than KeepKey. 
 
 ## KeepKey vs. Paper Wallet
 
